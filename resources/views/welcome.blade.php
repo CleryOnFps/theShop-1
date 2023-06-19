@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Shop</title>
 
+    @vite('resources/css/app.css')
+
     @livewireStyles
 
 </head>
 <body>
+
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
 
     @livewireScripts
 
