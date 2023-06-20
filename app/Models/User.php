@@ -60,6 +60,7 @@ class User extends Authenticatable
     }
     // 
     
+    
     public function favoris(): HasMany
     {
         return $this->hasMany(Favoris::class);
